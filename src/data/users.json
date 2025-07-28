@@ -3,5 +3,10 @@
         "name": "Usuario de prueba",
         "email": "prueba@gmail.com",
         "password": "$2b$12$2x7ivy4XIJow/XhltEs6wefcEpQ1IiJ0DavLXQNb18IYKSzqXwWTK"
+    },
+    {
+        "name": "Reyort",
+        "email": "reyort@gmail.com",
+        "password": "$2b$12$0jfDf1jj91LZC/Slnq.ypO7GeK/I8liTSTelzhRYUTAjx0YUM83O2"
     }
 ]

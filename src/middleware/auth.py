@@ -2,7 +2,7 @@ from fastapi import Request, HTTPException, status
 from src.security.jwt import verify_token
 
 async def verify_token_middleware(request: Request):
-    if request.url.path.startswith("/tasks"):
+    if request.url.path.startswith("/items"):
         try:
             auth_header = request.headers["Authorization"]
             if not auth_header.startswith("Bearer "):
@@ -11,7 +11,6 @@ async def verify_token_middleware(request: Request):
                     detail="Invalid authentication scheme",
                     headers={"WWW-Authenticate": "Bearer"},
                 )
-
             token = auth_header.split(" ")[1]
             user = verify_token(token)
             request.state.user = user

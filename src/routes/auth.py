@@ -21,7 +21,6 @@ def register(user: UserCreate):
 def login(form_data: OAuth2PasswordRequestForm = Depends()):
     users = get_users()
     user = next((u for u in users if u['email'] == form_data.username), None)
-
     if not user or not verify_password(form_data.password, user['password']):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

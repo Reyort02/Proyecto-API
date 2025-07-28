@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Prueba20",
+        "price": 20.0,
+        "stock": 100,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753688283
+        },
+        "id": 9
+    },
+    {
+        "name": "Prueba3",
+        "price": 5.5,
+        "stock": 10,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753688283
+        },
+        "id": 10
+    },
+    {
+        "name": "Prueba3",
+        "price": 5.5,
+        "stock": 10,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753689376
+        },
+        "id": 11
+    },
+    {
+        "name": "Prueba3",
+        "price": 5.5,
+        "stock": 10,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753689376
+        },
+        "id": 12
+    },
+    {
+        "name": "Prueba4",
+        "price": 5.5,
+        "stock": 10,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753689527
+        },
+        "id": 13
+    },
+    {
+        "name": "Prueba5",
+        "price": 5.5,
+        "stock": 10,
+        "owner": {
+            "sub": "prueba@gmail.com",
+            "exp": 1753689527
+        },
+        "id": 14
+    },
+    {
+        "name": "PruebaReyort",
+        "price": 20.5,
+        "stock": 500,
+        "owner": {
+            "sub": "reyort@gmail.com",
+            "exp": 1753691029
+        },
+        "id": 15
+    }
+]
